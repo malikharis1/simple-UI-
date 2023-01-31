@@ -48,6 +48,7 @@
   }
 }
 @media (max-width: 672px) {
+
   .section2 .section2-boxes:nth-child(2) p {
     font-size: 1.6rem;
   }
@@ -61,7 +62,8 @@
   }
   .section1 nav #logo {
     font-size: 2.4rem;
-    flex: 1 1 5rem;
+    flex: 1 1 9rem;
+    padding-top: 2rem;
   }
   .section1 nav ul {
     flex: 1 1 5rem;
@@ -73,11 +75,13 @@
   .section1 nav ul li {
     font-size: 2rem !important;
   }
+
 }
 @media (max-width: 590px) {
   html {
     font-size: 44%;
   }
+
   .section3-boxes {
     flex-basis: 15rem;
   }
